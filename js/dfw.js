@@ -2,8 +2,19 @@
   'use strict';
 
   var imgs = [
-    ['images/dt-ft-worth.jpg', "Ken Lund", "https://secure.flickr.com/photos/kenlund/68218446/in/photolist-72CY7-frPbeL-9U2ggc-6fF5Wb-f88Erj-ehceP5-6XMmxr-eJAdQZ-8gyBKx-bVPQk9-29t5AN-5NWiCM-eh6vta-87EDvq-5nmzup-eJGnHJ-3Lvjud-5nmwVZ-9Ta1kz-9Ta15x-9Ta1at-9TcQKN-9TcP7U-9TcQMj-9Ta1rc-9Ta11D-9T9ZYK-9Ta17X-9TcNXu-9Ta1eX-9TcPxE-9Ta1nk-9TcQr9-9TcPrL-9TcPpG-9Ta1pk-9Ta1F8-9Ta1H2-9TcPFS-9TcPu7-9Ta2Hr-9Ta2JR-9Ta1Ki-9Ta1ie-9Ta1sZ-9TcQxE-9Ta2BV-9TcQGA-9TcQtu-9Ta2Fr"],
-    ['images/dt-dallas.jpg', "Raging Wire", "https://secure.flickr.com/photos/ragingwire/3334765721/in/photolist-mYEuw-mzYP7a-65FxEH-cFv1Ro-5XZtyp-dpVujz-cU72E1-9uHynK-axJXkP-5ZR61T-aw1VED-czN78d-mMyDhe-9sjAeN-9nZ7vZ-mAtcpR-bLbxZB-faiino-973zko-9nZawz-9o3bM7-7edWQu-uQD9-95VW2P-mBciCr-e5gp5C-6UKLzn-88aoXi-7UZtCK-9HdYG2-4mbxg9-mA6pxw-93K5AH-6daYvp-fDcWYt-6ECGS1-7KmW2U-em6QPL-4EpyRk-cEhufu-cEhtTN-61Ang1-HVrvA-9dHpBu-74UHDB-4WqGbZ-dWotQP-enbN2Z-dvvZsN-dujLZF"]
+    ['images/dt-ft-worth.jpg', "Ken Lund", "https://www.flickr.com/photos/kenlund/68218446"],
+    ['images/dt-dallas.jpg', "Raging Wire", "https://www.flickr.com/photos/ragingwire/3334765721"],
+    ['images/bp-arlington.jpg', "Bo Nash", "https://www.flickr.com/photos/sidehike/309394754"],
+    ['images/cowboys-stadium.jpg', "joevare", "https://www.flickr.com/photos/joevare/5629027097"],
+    ['images/dallas-arboretum.jpg', "Rodney", "https://www.flickr.com/photos/rjhuttondfw/9937691186"],
+    ['images/dealey-plaza.jpg', "CameliaTWU", "https://www.flickr.com/photos/cameliatwu/10972543013"],
+    ['images/denton.jpg', "Brandi Korte", "https://www.flickr.com/photos/branditressler/8401359196"],
+    ['images/ftw-stockyard.jpg', "Nicolas Henderson", "https://www.flickr.com/photos/texasbackroads/8126754604"],
+    ['images/ftw-water-garden.jpg', "Nicolas Henderson", "https://www.flickr.com/photos/texasbackroads/7004491381"],
+    ['images/gaylord-texan.jpg', "Dell Inc.", "https://www.flickr.com/photos/dellphotos/5083385705"],
+    ['images/lonestar-park.jpg', "Travis Isaacs", "https://www.flickr.com/photos/tbisaacs/2406344139"],
+    ['images/shops-legacy.jpg', "Tony Moore", "https://www.flickr.com/photos/soulrider/2963640409"],
+    ['images/southfork.jpg', "Adam Simmons", "https://www.flickr.com/photos/mr-numb/13936057127"]
   ],
     Cache = [],
     currentIndex = -1,
