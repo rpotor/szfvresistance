@@ -30,7 +30,7 @@
 
       $('#bgtop').fadeOut(0).css('background-image', 'url(' + Cache[index][0] + ')').fadeIn(500);
       $('#photocredit').text(Cache[index][1]);
-      $('#photolink').attr('href', Cache[index][2]);
+      $('a#photolink').prop('href', Cache[index][2]);
       currentIndex = index;
     },
     shuffle = function (array) {
