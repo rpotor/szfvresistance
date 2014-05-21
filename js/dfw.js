@@ -18,7 +18,7 @@
   ],
     Cache = [],
     currentIndex = -1,
-    rotateDuration = 5 * 1000,
+    rotateDuration = 8 * 1000,
     interval,
     changeBg = function () {
       var len = Cache.length, index = currentIndex;
