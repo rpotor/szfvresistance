@@ -196,7 +196,7 @@ a.btn:hover {
     font-weight: bold;
   }
   .legal {
-    font-size: 7px;
+    font-size: 10px;
   }
   #form {
     width: 95%;
@@ -211,3 +211,4 @@ a.btn:hover {
     float: none;
   }
 }
+
