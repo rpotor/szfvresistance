@@ -68,13 +68,21 @@
       }
     }).attr('src', url[0]);
   });
-  
+
   $('#joinlink').on('click', function () {
     $("#form").fadeIn(500);
   });
-  
+
   $('#formclose').on('click', function () {
     $("#form").hide();
+  });
+
+  $('#aboutlink').on('click', function () {
+    $("#about").fadeIn(500);
+  });
+
+  $('#aboutclose').on('click', function () {
+    $("#about").hide();
   });
 
 })(window, jQuery);

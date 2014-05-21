@@ -6,6 +6,9 @@ body {
   font-family: "Coda", helvetica, arial, sans-serif;
   background: #000 no-repeat center center fixed;
 }
+h3, h4, h5, h6 {
+  color: #FEC80C;
+}
 #bgtop {
   position: fixed;
   top: 0;
@@ -95,7 +98,7 @@ a.btn:hover {
   color: #ccc !important;
   z-index: 3;
 }
-#form {
+#form, #about {
   z-index: 5;
   position: absolute;
   width: 80%;
@@ -106,12 +109,18 @@ a.btn:hover {
   border-radius: 15px;
   box-shadow: 0 0 12px #000;
 }
-#formclose {
+#formclose, #aboutclose {
   float: right;
   margin-right: 20px;
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
+}
+#about {
+  padding: 15px;
+}
+#about p {
+  margin-bottom: 0.5em;
 }
 #form label, #form div, #form ol {
   color: white;
@@ -121,6 +130,25 @@ a.btn:hover {
 }
 #form .required-message {
   display: none;
+}
+.googleplay {
+  float: right;
+  max-width: 100%;
+}
+.install {
+  font-weight: bold;
+}
+.image-gallery {
+  float: left;
+  padding: 5px;
+  border: 1px #333 solid;
+  border-radius: 3px;
+  background-color: #eaeaea;
+  max-width: 275px;
+  height: auto;
+  max-height: 275px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -144,6 +172,10 @@ a.btn:hover {
 @media only screen and (max-width: 602px) {
   header {
     font-size: 1.15em;
+  }
+  .googleplay {
+    max-width: 175px;
+    width: 100%;
   }
 }
 
@@ -169,5 +201,13 @@ a.btn:hover {
   #form {
     width: 95%;
     left: 2.5%;
+  }
+  .image-gallery {
+    max-width: 185px;
+    height: auto;
+    max-height: 185px;
+  }
+  .googleplay {
+    float: none;
   }
 }
