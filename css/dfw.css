@@ -134,6 +134,7 @@ a.btn:hover {
 .googleplay {
   float: right;
   max-width: 100%;
+  margin: 5px;
 }
 .install {
   font-weight: bold;
