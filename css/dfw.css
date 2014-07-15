@@ -81,9 +81,17 @@ a.btn {
   color: black;
   margin-bottom: 5px;
 }
+a.btn-red {
+  background: #d70a16;
+  color: white;
+}
 a.btn:hover {
   background-color: #0592D0;
   color: white;
+}
+a.btn-red:hover {
+  background-color: #a8291c;
+  color: #dfdfdf;
 }
 .legal {
   position: fixed;
@@ -98,7 +106,7 @@ a.btn:hover {
   color: #ccc !important;
   z-index: 3;
 }
-#form, #about {
+#form, #about, #gplus {
   z-index: 5;
   position: absolute;
   width: 80%;
@@ -109,18 +117,23 @@ a.btn:hover {
   border-radius: 15px;
   box-shadow: 0 0 12px #000;
 }
-#formclose, #aboutclose {
+#formclose, #aboutclose, #gplusclose {
   float: right;
   margin-right: 20px;
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
 }
-#about {
+#about, #gplus {
   padding: 15px;
 }
-#about p {
+#about p, #gplus p {
   margin-bottom: 0.5em;
+}
+#gplus {
+  width: 60%;
+  min-width: 365px;
+  left: 20%;
 }
 #form label, #form div, #form ol {
   color: white;
@@ -134,6 +147,10 @@ a.btn:hover {
 .googleplay {
   float: right;
   max-width: 100%;
+  margin: 5px;
+}
+.qrcode {
+  margin: 5px 5px 25px;
 }
 .install {
   font-weight: bold;
@@ -251,6 +268,9 @@ select, .ss-secondary-text {
   #form {
     width: 95%;
     left: 2.5%;
+  }
+  #gplus {
+    left: 0;
   }
   .googleplay {
     float: none;
