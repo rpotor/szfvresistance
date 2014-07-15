@@ -73,6 +73,11 @@
     $("#form").fadeIn(500);
   });
 
+  $('#joinconfirm').on('click', function () {
+    $("#gplus").hide();
+    $("#form").fadeIn(500);
+  });
+
   $('#formclose').on('click', function () {
     $("#form").hide();
   });
@@ -83,6 +88,14 @@
 
   $('#aboutclose').on('click', function () {
     $("#about").hide();
+  });
+
+  $('#gpluslink').on('click', function () {
+    $("#gplus").fadeIn(500);
+  });
+
+  $('#gplusclose').on('click', function () {
+    $("#gplus").hide();
   });
 
 })(window, jQuery);
