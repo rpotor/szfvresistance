@@ -14,7 +14,8 @@
     ['images/gaylord-texan.jpg', "Dell Inc.", "https://www.flickr.com/photos/dellphotos/5083385705"],
     ['images/lonestar-park.jpg', "Travis Isaacs", "https://www.flickr.com/photos/tbisaacs/2406344139"],
     ['images/shops-legacy.jpg', "Tony Moore", "https://www.flickr.com/photos/soulrider/2963640409"],
-    ['images/southfork.jpg', "Adam Simmons", "https://www.flickr.com/photos/mr-numb/13936057127"]
+    ['images/southfork.jpg', "Adam Simmons", "https://www.flickr.com/photos/mr-numb/13936057127"],
+    ['images/basshall.jpg', "Bron Praslicka", "https://www.flickr.com/photos/bronpraslicka/6439645075/"]
   ],
     Cache = [],
     currentIndex = -1,
